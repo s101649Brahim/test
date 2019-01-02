@@ -1,0 +1,12 @@
+<ion-content padding center text-center>
+  <ion-title>Tinder</ion-title>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="Voornaam" [(ngModel)]='firstName'></ion-input>
+    </ion-item>
+  </ion-list>
+
+
+  <button ion-button full (click)="login()">Login</button>
+  <button ion-button full (click)="addEmployee()" color="secondary">Registratie</button>
+</ion-content>
